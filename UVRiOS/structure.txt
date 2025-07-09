@@ -1,0 +1,17 @@
+UVRiOS/
+├── UVRiOS.xcodeproj
+│   └── project.pbxproj
+├── UVR_MDXNet.mlpackage
+│   └── metadata.json
+├── Config
+│   └── UVRiOS.xcconfig
+└── UVRiOS
+    ├── Info.plist
+    ├── UVRiOSApp.swift
+    ├── Models
+    │   └── AudioProcessor.swift
+    ├── Views
+    │   └── ContentView.swift
+    └── Resources
+        └── Assets.xcassets
+            └── Contents.json

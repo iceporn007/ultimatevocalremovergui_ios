@@ -1,0 +1,7 @@
+// Project and target build settings for UVRiOS
+SWIFT_VERSION = 6.0
+IPHONEOS_DEPLOYMENT_TARGET = 26.0
+CODE_SIGN_STYLE = Automatic
+DEVELOPMENT_TEAM = ABCDE12345
+PRODUCT_BUNDLE_IDENTIFIER = com.example.uvrios
+OTHER_SWIFT_FLAGS = -warnings-as-errors
