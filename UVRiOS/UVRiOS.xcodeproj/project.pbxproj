@@ -1,0 +1,158 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {};
+objectVersion = 55;
+objects = {
+
+/* Begin PBXFileReference section */
+AA000001 /* UVRiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVRiOSApp.swift; sourceTree = "<group>"; };
+AA000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/ContentView.swift"; sourceTree = "<group>"; };
+AA000003 /* AudioProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/AudioProcessor.swift"; sourceTree = "<group>"; };
+AA000004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+AA000005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Resources/Assets.xcassets"; sourceTree = "<group>"; };
+AA000006 /* UVR_MDXNet.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = file; path = "../UVR_MDXNet.mlpackage"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXBuildFile section */
+AA001001 /* UVRiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001; };
+AA001002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002; };
+AA001003 /* AudioProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000003; };
+AA001004 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA000004; };
+AA001005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA000005; };
+AA001006 /* UVR_MDXNet.mlpackage in Resources */ = {isa = PBXBuildFile; fileRef = AA000006; };
+/* End PBXBuildFile section */
+
+/* Begin PBXGroup section */
+AA000010 = {
+isa = PBXGroup;
+children = (
+AA000001,
+AA000002,
+AA000003,
+AA000004,
+AA000005,
+AA000006,
+);
+path = UVRiOS;
+sourceTree = "<group>";
+};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+AA002000 /* UVRiOS */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = AA003000;
+buildPhases = (
+AA002100,
+AA002101,
+);
+buildRules = (
+);
+dependencies = (
+);
+name = UVRiOS;
+productName = UVRiOS;
+productReference = AA002001;
+productType = "com.apple.product-type.application";
+};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+AA000000 = {
+isa = PBXProject;
+buildConfigurationList = AA003001;
+compatibilityVersion = "Xcode 15.0";
+mainGroup = AA000010;
+targets = (
+AA002000,
+);
+};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+AA002101 /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+files = (
+AA001004,
+AA001005,
+AA001006,
+);
+};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+AA002100 /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+files = (
+AA001001,
+AA001002,
+AA001003,
+);
+};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+AA003010 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+INFOPLIST_FILE = "UVRiOS/Info.plist";
+SWIFT_VERSION = 6.0;
+PRODUCT_BUNDLE_IDENTIFIER = com.example.uvrios;
+CODE_SIGN_STYLE = Automatic;
+DEVELOPMENT_TEAM = ABCDE12345;
+IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+};
+name = Debug;
+};
+AA003011 /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+INFOPLIST_FILE = "UVRiOS/Info.plist";
+SWIFT_VERSION = 6.0;
+PRODUCT_BUNDLE_IDENTIFIER = com.example.uvrios;
+CODE_SIGN_STYLE = Automatic;
+DEVELOPMENT_TEAM = ABCDE12345;
+IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+};
+name = Release;
+};
+AA003012 /* Project Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+};
+name = Debug;
+};
+AA003013 /* Project Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+};
+name = Release;
+};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+AA003000 = {
+isa = XCConfigurationList;
+buildConfigurations = (
+AA003010,
+AA003011,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+AA003001 = {
+isa = XCConfigurationList;
+buildConfigurations = (
+AA003012,
+AA003013,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+/* End XCConfigurationList section */
+
+};
+rootObject = AA000000 /* Project object */;
+}
+
